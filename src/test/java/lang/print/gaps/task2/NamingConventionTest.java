@@ -18,7 +18,7 @@ class NamingConventionTest {
         List<String> strings = Files.readAllLines(path);
         List<String> result = strings.stream()
                 .filter(line ->
-                                line.contains("variable") ||
+                                line.contains("variable ") ||
                                 line.contains("variable_one") ||
                                 line.contains("variableTwo") ||
                                 line.contains("variable_three") ||
