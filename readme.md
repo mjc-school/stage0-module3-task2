@@ -52,8 +52,8 @@ variable in example is in snake case this pattern should be followed):
              int variable_One = 1;
              int variableTwo = 2;
              int variable_three = 3;
-             int VARIABLEFOUR = 4;
-             int VARIABLEfIVE = 5;
+             final int VARIABLEFOUR = 4;
+             final int VARIABLEfIVE = 5;
              int VariableSix = 6;
              int variableseven = 7;
              int VariableEight = 8;
