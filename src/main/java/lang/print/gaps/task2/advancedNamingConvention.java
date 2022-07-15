@@ -11,6 +11,6 @@ public class advancedNamingConvention {
     }
 
     void callByNumber(int number) {
-        System.out.println("Call this number " + number);
+        System.out.println("Call this number " , number);
     }
 }
