@@ -25,7 +25,7 @@ class AdvancedNamingConventionsTest {
                                 line.contains("void callByNumber(int number)"))
                 .collect(Collectors.toList());
 
-        assertEquals(5, result.size());
+        assertEquals(5, result.size(), "Not all conventions were followed. Check what to call classes variables and methods.");
     }
 
 }
