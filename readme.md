@@ -1,9 +1,9 @@
-
 ## Tasks:
+
 #### 1) Java variable names.
+
 Make the program work (var starts with 1, $, % etc).
 Update given code so as to be able to compile it:
-
 
     public class JavaVariableNames {
         public static void main(String[] args) {
@@ -18,11 +18,10 @@ Update given code so as to be able to compile it:
         }
     }
 
-
 #### 2) Copied names.
+
 Make the program work (vars have the same names).
 Update given code so as to be able to compile it:
-
 
     public class CopiedNames {
         public static void main(String[] args) {
@@ -40,11 +39,12 @@ Update given code so as to be able to compile it:
             int my__-__integer = 1234567;
         }
     }
+
 #### 3) Naming conventions.
-Update given code so that it is corresponding to java name conventions, 
+
+Update given code so that it is corresponding to java name conventions,
 notice the constants with the keyword **final**, following the case of variables (if the
 variable in example is in snake case this pattern should be followed):
-
 
     public class NamingConvention {
         public static void main(String[] args) {
@@ -60,13 +60,10 @@ variable in example is in snake case this pattern should be followed):
         }
     }
 
-
-
-
 #### 4) Advanced naming convention.
+
 (After advanced reading about java naming conventions ) In the given code snippet make the program correspond to java
 code conventions (method, class, field names...):
-
 
     public class advancedNamingConvention {
         private static final int adult_age = 18;
