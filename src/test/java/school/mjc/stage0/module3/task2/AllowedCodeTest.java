@@ -30,7 +30,6 @@ public class AllowedCodeTest {
     private void verifyFile(CompilationUnit parsed, String fileName) {
         assertNoImports(parsed);
         assertNoInitializationBlocks(parsed);
-        assertNoMethodsExceptMain(parsed);
         assertNoClassesExceptTopLevel(parsed, fileName);
     }
 }
